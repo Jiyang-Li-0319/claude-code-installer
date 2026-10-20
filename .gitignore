@@ -1,0 +1,8 @@
+# Diagnostic reports may contain local paths and usernames
+diagnose-report-*.txt
+
+# Never commit local API configuration
+settings.json
+settings.json.bak-*
+.claude/
+.claude.json
