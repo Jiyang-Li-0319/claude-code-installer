@@ -12,6 +12,11 @@ Failed to connect to api.anthropic.com: Status 403
 
 这不是网络故障，而是 Anthropic 对部分地区的服务端限制。把请求指向第三方兼容端点即可正常使用。
 
+> **非官方项目**：本项目与 Anthropic 无关联，未获得其授权或认可。项目不包含、不分发任何
+> Anthropic 的软件或源代码；Claude Code 由使用者自己的电脑通过 npm 获取。
+> 使用本项目即表示你理解并自行承担遵守 Anthropic 服务条款、所用模型厂商条款
+> 及所在地法律法规的责任。
+
 ## 快速开始
 
 1. 下载并解压 [`ClaudeCode-Installer.zip`](ClaudeCode-Installer.zip)
@@ -75,6 +80,17 @@ Failed to connect to api.anthropic.com: Status 403
 | `diagnose.bat` / `diagnose.ps1` | 只读诊断 |
 | `使用说明.md` | 完整文档 |
 | `ClaudeCode-Installer.zip` | 上述文件的打包，方便直接发给别人 |
+
+## 免责声明
+
+- 本项目是个人编写的非官方配置工具，与 Anthropic 不存在隶属、合作、赞助或授权关系，
+  也不代表 Anthropic 的立场。
+- 仓库不包含、不分发 Claude Code 或其他 Anthropic 软件、源代码、账号或密钥。
+  安装过程中的下载行为发生在使用者自己的电脑上。
+- Claude Code 由 Anthropic 提供并受其服务条款约束；各地区是否可用以 Anthropic 官方公布的
+  [supported countries](https://anthropic.com/supported-countries) 为准。
+- 各模型厂商的 API 端点、模型名称、可用性与计费由对应厂商负责，使用时请遵守其条款。
+- 本项目按 MIT 协议"按原样"（AS IS）提供，不对可用性、合规性或使用结果作任何担保。
 
 ## License
 
